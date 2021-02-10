@@ -11,7 +11,6 @@ import sys, time
 from urllib.error import HTTPError, URLError
 import socket
 import yagmail
-import time
 from backports.datetime_fromisoformat import MonkeyPatch
 MonkeyPatch.patch_fromisoformat()
 
