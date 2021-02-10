@@ -7,9 +7,9 @@ Note: There are a bunch of modules that may need some tweaking depending on wher
 
 I run this code with a cron job to mail a list of weekly papers from the subjects I care about. E.g, for a 6am Tuesday morning mailing I make a cronjob like:
 
-`PYTHONIOENCODING=utf8
+```PYTHONIOENCODING=utf8
 LANG=en_US.UTF-8
 
-0 6 * * 2 python3 ~/arxiv/arxiv_scraper.py >> ~/arxiv/scraper.log 2>&1`
+0 6 * * 2 python3 ~/arxiv/arxiv_scraper.py >> ~/arxiv/scraper.log 2>&1```
 
 which will also make a log of the process.
