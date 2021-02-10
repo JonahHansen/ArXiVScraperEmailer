@@ -1,4 +1,4 @@
-#Rudementary ArXiV Scraper and Emailer
+#Rudimentary ArXiV Scraper and Emailer
 #Works with the Python 3 installation on MSO servers
 #Credit: Jonah Hansen 2021
 
