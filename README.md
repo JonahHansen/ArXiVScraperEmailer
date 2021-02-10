@@ -11,7 +11,7 @@ I run this code with a cron job to mail a list of weekly papers from the subject
 PYTHONIOENCODING=utf8
 LANG=en_US.UTF-8
 
-0 6 * * 2 python3 ~/arxiv/arxiv_scraper.py >> ~/arxiv/scraper.log 2>&1
+0 6 * * 2 python3 ~/arxiv/arxivscraper.py >> ~/arxiv/scraper.log 2>&1
 ```
 
 which will also make a log of the process.
